@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 //static file setup
 app.use(express.static("./public"));
 
-//fire contrller
+//fire controller
 toDoController(app);
 //listen port
 app.listen(3000);
